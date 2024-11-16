@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Anish.Testcomponents.TestListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name=" ErrorVadilation Test (failed)">
+    <classes>
+      <class name="Anish.Tests.ErrorVadilationTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="errorValid"/>
+          <include name="launchApllication"/>
+        </methods>
+      </class> <!-- Anish.Tests.ErrorVadilationTest -->
+    </classes>
+  </test> <!--  ErrorVadilation Test (failed) -->
+</suite> <!-- Failed suite [Suite] -->

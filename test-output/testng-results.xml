@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-13T16:35:25 IST" name="Suite" finished-at="2024-11-13T16:36:01 IST" duration-ms="35877">
+    <groups>
+      <group name="errorhandlings">
+        <method signature="ErrorVadilationTest.errorValid()[pri:0, instance:Anish.Tests.ErrorVadilationTest@47caedad]" name="errorValid" class="Anish.Tests.ErrorVadilationTest"/>
+      </group> <!-- errorhandlings -->
+    </groups>
+    <test started-at="2024-11-13T16:35:25 IST" name=" ErrorVadilation Test " finished-at="2024-11-13T16:35:36 IST" duration-ms="10240">
+      <class name="Anish.Tests.ErrorVadilationTest">
+        <test-method is-config="true" signature="launchApllication()[pri:0, instance:Anish.Tests.ErrorVadilationTest@47caedad]" started-at="2024-11-13T16:35:25 IST" name="launchApllication" finished-at="2024-11-13T16:35:30 IST" duration-ms="4780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApllication -->
+        <test-method signature="errorValid()[pri:0, instance:Anish.Tests.ErrorVadilationTest@47caedad]" started-at="2024-11-13T16:35:30 IST" name="errorValid" finished-at="2024-11-13T16:35:31 IST" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValid -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Anish.Tests.ErrorVadilationTest@47caedad]" started-at="2024-11-13T16:35:31 IST" name="teardown" finished-at="2024-11-13T16:35:31 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApllication()[pri:0, instance:Anish.Tests.ErrorVadilationTest@47caedad]" started-at="2024-11-13T16:35:31 IST" name="launchApllication" finished-at="2024-11-13T16:35:35 IST" duration-ms="3239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApllication -->
+        <test-method signature="productErroValidation()[pri:0, instance:Anish.Tests.ErrorVadilationTest@47caedad]" started-at="2024-11-13T16:35:35 IST" name="productErroValidation" finished-at="2024-11-13T16:35:36 IST" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErroValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Anish.Tests.ErrorVadilationTest@47caedad]" started-at="2024-11-13T16:35:36 IST" name="teardown" finished-at="2024-11-13T16:35:36 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Anish.Tests.ErrorVadilationTest -->
+    </test> <!--  ErrorVadilation Test  -->
+    <test started-at="2024-11-13T16:35:25 IST" name="SubmitOrder Test" finished-at="2024-11-13T16:36:01 IST" duration-ms="35877">
+      <class name="Anish.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApllication()[pri:0, instance:Anish.Tests.SubmitOrderTest@533bda92]" started-at="2024-11-13T16:35:26 IST" name="launchApllication" finished-at="2024-11-13T16:35:30 IST" duration-ms="4063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApllication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Anish.Tests.SubmitOrderTest@533bda92]" started-at="2024-11-13T16:35:30 IST" name="submitOrder" data-provider="getData1" finished-at="2024-11-13T16:35:39 IST" duration-ms="9522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Anish@123, email=anish123@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Anish.Tests.SubmitOrderTest@533bda92]" started-at="2024-11-13T16:35:39 IST" name="teardown" finished-at="2024-11-13T16:35:39 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApllication()[pri:0, instance:Anish.Tests.SubmitOrderTest@533bda92]" started-at="2024-11-13T16:35:39 IST" name="launchApllication" finished-at="2024-11-13T16:35:43 IST" duration-ms="3915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApllication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Anish.Tests.SubmitOrderTest@533bda92]" started-at="2024-11-13T16:35:43 IST" name="submitOrder" data-provider="getData1" finished-at="2024-11-13T16:35:52 IST" duration-ms="9052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Anish@123, email=anish0001@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Anish.Tests.SubmitOrderTest@533bda92]" started-at="2024-11-13T16:35:52 IST" name="teardown" finished-at="2024-11-13T16:35:52 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApllication()[pri:0, instance:Anish.Tests.SubmitOrderTest@533bda92]" started-at="2024-11-13T16:35:52 IST" name="launchApllication" finished-at="2024-11-13T16:35:56 IST" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApllication -->
+        <test-method signature="OrderHistory(java.util.HashMap)[pri:0, instance:Anish.Tests.SubmitOrderTest@533bda92]" started-at="2024-11-13T16:35:56 IST" name="OrderHistory" data-provider="getData1" finished-at="2024-11-13T16:35:57 IST" depends-on-methods="Anish.Tests.SubmitOrderTest.submitOrder" duration-ms="1057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Anish@123, email=anish123@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistory -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Anish.Tests.SubmitOrderTest@533bda92]" started-at="2024-11-13T16:35:57 IST" name="teardown" finished-at="2024-11-13T16:35:57 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApllication()[pri:0, instance:Anish.Tests.SubmitOrderTest@533bda92]" started-at="2024-11-13T16:35:57 IST" name="launchApllication" finished-at="2024-11-13T16:36:00 IST" duration-ms="3264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApllication -->
+        <test-method signature="OrderHistory(java.util.HashMap)[pri:0, instance:Anish.Tests.SubmitOrderTest@533bda92]" started-at="2024-11-13T16:36:00 IST" name="OrderHistory" data-provider="getData1" finished-at="2024-11-13T16:36:01 IST" depends-on-methods="Anish.Tests.SubmitOrderTest.submitOrder" duration-ms="1064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Anish@123, email=anish0001@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistory -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Anish.Tests.SubmitOrderTest@533bda92]" started-at="2024-11-13T16:36:01 IST" name="teardown" finished-at="2024-11-13T16:36:01 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Anish.Tests.SubmitOrderTest -->
+    </test> <!-- SubmitOrder Test -->
+  </suite> <!-- Suite -->
+</testng-results>
